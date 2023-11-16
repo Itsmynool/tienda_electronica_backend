@@ -1,0 +1,23 @@
+failed to get console mode for stdout: Controlador no v├ílido.
+[1A[1B[0G[?25l[+] Running 4/0
+ [32mÔ£ö[0m Container django_auth_api_redis       [32mCreated[0m[34m0.0s [0m
+ [32mÔ£ö[0m Container django_auth_api_postgresql  [32mCreated[0m[34m0.0s [0m
+ [32mÔ£ö[0m Container tiendaelectronica_ms_auth   [32mCreated[0m[34m0.0s [0m
+ [32mÔ£ö[0m Container auth-queue_auth-1           [32mCreated[0m[34m0.0s [0m
+[?25hAttaching to auth-queue_auth-1, django_auth_api_postgresql, django_auth_api_redis, tiendaelectronica_ms_auth
+django_auth_api_redis       | 1:C 16 Nov 2023 03:43:13.796 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+django_auth_api_redis       | 1:C 16 Nov 2023 03:43:13.796 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+django_auth_api_redis       | 1:C 16 Nov 2023 03:43:13.796 * Redis version=7.2.3, bits=64, commit=00000000, modified=0, pid=1, just started
+django_auth_api_redis       | 1:C 16 Nov 2023 03:43:13.796 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.797 * monotonic clock: POSIX clock_gettime
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.797 * Running mode=standalone, port=6379.
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * Server initialized
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * Loading RDB produced by version 7.2.3
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * RDB age 5 seconds
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * RDB memory usage when created 0.83 Mb
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * Done loading RDB, keys loaded: 0, keys expired: 0.
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * DB loaded from disk: 0.000 seconds
+django_auth_api_redis       | 1:M 16 Nov 2023 03:43:13.798 * Ready to accept connections tcp
+django_auth_api_postgresql  | 
+django_auth_api_postgresql  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+django_auth_api_postgresql  | 
